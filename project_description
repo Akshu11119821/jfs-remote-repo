@@ -1,0 +1,140 @@
+Project Description
+Project Title
+User Authentication System with Login and Logout Functionality
+
+Author
+Akshaya
+Creation Date
+08/05/2026
+
+Project Overview
+The User Authentication System is a Java Full Stack end‑to‑end web application designed to provide secure Login and Logout functionality for users. This project demonstrates the integration of frontend technologies (HTML & CSS), backend development using Java, Oracle database for data persistence, and Selenium automation testing for validating application behavior.
+The system ensures that only authenticated users can access protected areas of the application and provides a secure logout mechanism to terminate user sessions. This project follows industry‑standard practices and is suitable for academic, training, and real‑world enterprise‑level applications.
+
+Objectives of the Project
+
+To design a user‑friendly Login and Logout interface
+To implement secure authentication logic using Java
+To store and validate user credentials using an Oracle database
+To ensure data integrity and session management
+To automate functional testing using Selenium WebDriver
+To demonstrate complete end‑to‑end full stack development
+
+
+System Architecture
+The application follows a 3‑tier architecture:
+
+Presentation Layer (Frontend)
+Application Layer (Backend)
+Data Layer (Database)
+
+Additionally, Selenium Testing Layer is used for automation testing.
+
+Technology Stack
+Frontend
+
+HTML – for structuring web pages
+CSS – for styling and layout design
+
+Backend
+
+Java
+Servlet technology for request handling
+JDBC for database connectivity
+
+Database
+
+Oracle Database
+SQL queries for user authentication
+
+Testing Tool
+
+Selenium WebDriver
+TestNG framework
+Chrome browser automation
+
+
+Functional Description
+1. Login Functionality
+
+The user enters a username and password on the login page.
+The credentials are sent to the backend server.
+The backend validates the credentials against records stored in the Oracle database.
+If valid, the user is redirected to the Dashboard/Home page.
+If invalid, an error message is displayed.
+
+2. Logout Functionality
+
+The logged‑in user can click the Logout button.
+The session is invalidated on the server.
+The user is redirected back to the Login page.
+This ensures secure termination of the session.
+
+
+Database Design
+The database stores user authentication details.
+Table: USERS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Column NameData TypeDescriptionUSER_IDNUMBERPrimary KeyUSERNAMEVARCHAR2User login namePASSWORDVARCHAR2Encrypted password
+The backend uses JDBC to connect to the Oracle database and execute authentication queries.
+
+Selenium Automation Testing
+Selenium is used to automate and validate:
+
+Successful login with valid credentials
+Logout functionality
+Page navigation and redirection
+UI element visibility and behavior
+
+Automation ensures:
+
+Faster testing
+Reduced manual effort
+Reliable and repeatable test execution
+
+
+Advantages of the System
+
+Secure user authentication
+Simple and intuitive UI
+Modular and scalable architecture
+Easy integration with enterprise systems
+Automated testing improves software quality
+
+
+Future Enhancements
+
+Password encryption using hashing algorithms
+Role‑based access control
+Forgot password functionality
+OTP or email verification
+Integration with Spring Boot and Hibernate
+Deployment on cloud platforms
+
+
+Conclusion
+The User Authentication System successfully demonstrates an end‑to‑end Java Full Stack application with integrated frontend, backend, database, and automated testing. This project provides hands‑on experience in real‑time application development and testing, making it an ideal learning model for modern enterprise web applications.
