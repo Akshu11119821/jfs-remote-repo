@@ -1,0 +1,75 @@
+/*
+    File Name   : logout.css
+    Author      : Akshaya
+    Created On  : 08/05/2026
+    Description : CSS styling for Logout Page
+                  Java Full Stack Application
+                  Frontend : HTML, CSS
+                  Backend  : Java (Servlet / Spring Boot)
+                  Database : Oracle
+                  Testing  : Selenium
+*/
+
+/* Reset browser default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #43e97b, #38f9d7);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logout container */
+.logout-container {
+    background-color: #ffffff;
+    width: 380px;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Logout heading */
+.logout-container h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+/* Logout message */
+.logout-container p {
+    color: #444444;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+/* Button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #43e97b;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+input[type="submit"]:hover {
+    background-color: #2ecc71;
+}
+
+/* Footer text */
+.footer-text {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #666666;
+}

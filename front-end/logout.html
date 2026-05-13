@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        File Name   : logout.html
+        Author      : Akshaya
+        Created On  : 08/05/2026
+        Description : Logout page for Java Full Stack Application
+                      This page is displayed after successful logout.
+                      Backend: Java (Servlet / Spring Boot)
+    -->
+
+    <meta charset="UTF-8">
+    <title>Logout</title>
+
+    <!-- Link external CSS -->
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <!-- Logout Message Container -->
+    <div class="login-container">
+        <h2>Logged Out Successfully</h2>
+
+        <p style="text-align:center; margin-top:15px; color:#444;">
+            You have been logged out of the application.
+        </p>
+
+        <!-- Redirect back to login page -->
+        <form action="login.html" method="get">
+            <input type="submit" value="Go to Login">
+        </form>
+
+        <div class="footer-text">

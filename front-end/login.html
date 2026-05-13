@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        File Name   : login.html
+        Author      : Akshaya
+        Created On  : 08/05/2026
+        Description : Login page for Java Full Stack Application
+                      Frontend: HTML & CSS
+                      Backend : Java (Servlet / Spring Boot)
+    -->
+
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+
+    <!-- Internal CSS for styling -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            width: 350px;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 4px;
+            border: 1px solid #cccccc;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            background-color: #4facfe;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00c6fb;
+        }
+
+        .footer-text {
+            text-align: center;
+            margin-top: 15px;
+            font-size: 12px;
+            color: #666666;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Login Form Container -->
+    <div class="login-container">
+        <h2>User Login</h2>
+
+        <!-- 
+            Form Action:
+            - Update action URL based on backend
+            - Example: /login (Servlet or Spring Controller)
+        -->
+        <form action="login" method="post">
+
+            <!-- Username Field -->
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" 
+                   placeholder="Enter username" required>
+
+            <!-- Password Field -->
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" 
+                   placeholder="Enter password" required>
+
+            <!-- Login Button -->
+            <input type="submit" value="Login">
+
+        </form>
+
+        <div class="footer-text">

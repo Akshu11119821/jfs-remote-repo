@@ -1,0 +1,78 @@
+/*
+    File Name   : login.css
+    Author      : Akshaya
+    Created On  : 08/05/2026
+    Description : Styling for Login Page
+                  Used in Java Full Stack Application
+                  Frontend  : HTML, CSS
+                  Backend   : Java (Servlet / Spring Boot)
+                  Database  : Oracle
+*/
+
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page background styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login box container */
+.login-container {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Login heading */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+    color: #444444;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    border-color: #4facfe;
+}
+
+/* Login button */
+input[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4facfe;
+    color: #ffffff;
+    border: none;
